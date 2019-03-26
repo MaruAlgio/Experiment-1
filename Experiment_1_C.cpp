@@ -1,9 +1,9 @@
-/* Interest on a credit’s card unpaid balance is calculated using the average daily. Suppose that netBalance
+/* Interest on a creditâ€™s card unpaid balance is calculated using the average daily. Suppose that netBalance
 is the balance shown in the bill, payment is the payment made, d1 is the number of days in the billing cycle, and d2 is
 the number of days payment is made before billing cycle. Then the average daily */
 #include <iostream>
 #include <iomanip>
-//#include <conio.h>
+#include <conio.h>
 
 using namespace std;
 
@@ -55,7 +55,7 @@ int main ()
 	
 	cout << "The interest on your credit card's unpaid balance is: $" << interest<<endl;
 
-// 	getch ();	
+	getch ();	
 	return 0;
 }
 
