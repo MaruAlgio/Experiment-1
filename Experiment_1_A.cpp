@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-//#include <conio.h>
+#include <conio.h>
 #include <iomanip>
 
 using namespace std;
@@ -72,7 +72,7 @@ int main()
     	//ALWAYS PRESS "ENTER" TO PROCEED WITH NEXT LINE//
     
 
-//	getch();
+	getch();
 	return 0;
 }
 
