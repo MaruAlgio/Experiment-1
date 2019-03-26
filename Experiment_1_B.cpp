@@ -4,6 +4,7 @@ two decimal places. */
 
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 //#include <conio.h>
 
 using namespace std;
@@ -19,7 +20,7 @@ int main ()
 	cout << "Insert Density in grams per cubic centimeter (g/cm^3):";
 	cin >> density;
 	
-	double volume = (mass/density);
+	double volume = (mass/4)*(1/density) ;
 	
 	cout << "The Volume is: " << volume << " cm^3" <<endl;
 	
